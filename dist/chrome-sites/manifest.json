@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "Renegade Sites",
+  "version": "1.0.0",
+  "description": "Repaints GitHub and X in the Renegade colors, after Julie Mehretu, Retopistics: A Renegade Excavation.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "css": [
+        "guard.css"
+      ],
+      "js": [
+        "renegade.js",
+        "repaint.js",
+        "github.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://*.x.com/*",
+        "https://twitter.com/*",
+        "https://*.twitter.com/*"
+      ],
+      "css": [
+        "guard.css"
+      ],
+      "js": [
+        "renegade.js",
+        "repaint.js",
+        "x.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_origin_as_fallback": true
+    },
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://*.x.com/*",
+        "https://twitter.com/*",
+        "https://*.twitter.com/*"
+      ],
+      "js": [
+        "shadow.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true,
+      "match_origin_as_fallback": true
+    }
+  ]
+}

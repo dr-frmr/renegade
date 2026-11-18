@@ -1,0 +1,13 @@
+{
+  "name": "renegade",
+  "version": "1.0.0",
+  "description": "A light color theme after Julie Mehretu's Retopistics: A Renegade Excavation",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$description": "The 18 paints of renegade, each sampled from a flat painted shape in Julie Mehretu's Retopistics: A Renegade Excavation. Design Tokens (W3C DTCG) format. This file is the source of truth; everything in dist/ is generated from it.",
+  "paint": {
+    "$type": "color",
+    "ground":            { "$value": "#e7dbc4", "$description": "The raw canvas, sampled clean in the top corners and lifted slightly" },
+    "grey-planes":       { "$value": "#c1bdae", "$description": "The translucent grey planes" },
+    "lavender-squiggle": { "$value": "#948a94", "$description": "The lavender squiggle" },
+    "navy-bars":         { "$value": "#212a3d", "$description": "The heavy blue-black bars" },
+    "blue-lines":        { "$value": "#054d98", "$description": "The long ruled blue lines and deep blue planes" },
+    "slate-blue-plane":  { "$value": "#315a90", "$description": "The slate-blue plane" },
+    "sky-planes":        { "$value": "#7fa4c5", "$description": "The translucent sky-blue planes" },
+    "teal-marks":        { "$value": "#1c917d", "$description": "The small teal marks" },
+    "chartreuse":        { "$value": "#9eb427", "$description": "The chartreuse squiggles, the painting's only green" },
+    "saffron-arcs":      { "$value": "#edad01", "$description": "The saffron yellow arcs" },
+    "orange-planes":     { "$value": "#f27706", "$description": "The big flat orange planes" },
+    "peach-planes":      { "$value": "#e7bb9a", "$description": "The peach shadow planes" },
+    "brown-strokes":     { "$value": "#b68255", "$description": "The brown calligraphic strokes" },
+    "red-arc":           { "$value": "#953a30", "$description": "The dark red arc" },
+    "burst-red":         { "$value": "#d6030a", "$description": "The red of the ink burst, lower right" },
+    "pink-plane":        { "$value": "#db6681", "$description": "The soft rose plane right of center" },
+    "pink-a-frame":      { "$value": "#e35c84", "$description": "The pink A-frame at the center" },
+    "mauve-wedge":       { "$value": "#a46785", "$description": "The mauve wedge" }
+  }
+}

@@ -1,0 +1,59 @@
+/* Renegade: a light color theme after Julie Mehretu, Retopistics: A Renegade Excavation. */
+:root {
+  --renegade-ground: #e7dbc4;
+  --renegade-grey-planes: #c1bdae;
+  --renegade-lavender-squiggle: #948a94;
+  --renegade-navy-bars: #212a3d;
+  --renegade-blue-lines: #054d98;
+  --renegade-slate-blue-plane: #315a90;
+  --renegade-sky-planes: #7fa4c5;
+  --renegade-teal-marks: #1c917d;
+  --renegade-chartreuse: #9eb427;
+  --renegade-saffron-arcs: #edad01;
+  --renegade-orange-planes: #f27706;
+  --renegade-peach-planes: #e7bb9a;
+  --renegade-brown-strokes: #b68255;
+  --renegade-red-arc: #953a30;
+  --renegade-burst-red: #d6030a;
+  --renegade-pink-plane: #db6681;
+  --renegade-pink-a-frame: #e35c84;
+  --renegade-mauve-wedge: #a46785;
+
+  --renegade-background: #e7dbc4;
+  --renegade-surface: #dcd2bd;
+  --renegade-frame: #e1aea7;
+  --renegade-border: #cbc2b1;
+  --renegade-text: #212a3d;
+  --renegade-text-muted: #665f66;
+  --renegade-accent: #054d98;
+  --renegade-on-accent: #e7dbc4;
+  --renegade-highlight: #e1aea7;
+  --renegade-highlight-strong: #db6681;
+  --renegade-success: #5a6712;
+  --renegade-warning: #9c4a02;
+  --renegade-attention: #edad01;
+  --renegade-danger: #d6030a;
+  --renegade-danger-text: #c50308;
+  --renegade-merged: #84526b;
+  --renegade-path: #7f5939;
+  --renegade-added: #5a6712;
+  --renegade-removed: #c50308;
+
+  --renegade-syntax-comment: #665f66;
+  --renegade-syntax-keyword: #054d98;
+  --renegade-syntax-function: #9c4a02;
+  --renegade-syntax-type: #84526b;
+  --renegade-syntax-string: #5a6712;
+  --renegade-syntax-number: #136d5e;
+  --renegade-syntax-constant: #7f5b00;
+  --renegade-syntax-namespace: #7f5939;
+  --renegade-syntax-variable: #212a3d;
+  --renegade-syntax-parameter: #315a90;
+  --renegade-syntax-operator: #4b6378;
+  --renegade-syntax-decorator: #a23f5d;
+  --renegade-syntax-builtin: #953a30;
+  --renegade-syntax-tag: #84526b;
+  --renegade-syntax-attribute: #136d5e;
+  --renegade-syntax-regexp: #a23f5d;
+  --renegade-syntax-escape: #7f5b00;
+}

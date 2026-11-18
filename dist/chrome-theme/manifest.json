@@ -1,0 +1,90 @@
+{
+  "manifest_version": 3,
+  "name": "Renegade",
+  "version": "1.0.0",
+  "description": "A light Chrome theme after Julie Mehretu, Retopistics: A Renegade Excavation.",
+  "theme": {
+    "colors": {
+      "frame": [
+        225,
+        174,
+        167
+      ],
+      "frame_inactive": [
+        227,
+        193,
+        179
+      ],
+      "toolbar": [
+        231,
+        219,
+        196
+      ],
+      "toolbar_text": [
+        33,
+        42,
+        61
+      ],
+      "toolbar_button_icon": [
+        102,
+        95,
+        102
+      ],
+      "tab_text": [
+        33,
+        42,
+        61
+      ],
+      "tab_background_text": [
+        102,
+        95,
+        102
+      ],
+      "tab_background_text_inactive": [
+        131,
+        122,
+        131
+      ],
+      "bookmark_text": [
+        33,
+        42,
+        61
+      ],
+      "omnibox_background": [
+        220,
+        210,
+        189
+      ],
+      "omnibox_text": [
+        33,
+        42,
+        61
+      ],
+      "ntp_background": [
+        231,
+        219,
+        196
+      ],
+      "ntp_text": [
+        33,
+        42,
+        61
+      ],
+      "ntp_link": [
+        5,
+        77,
+        152
+      ],
+      "ntp_header": [
+        225,
+        174,
+        167
+      ],
+      "ntp_section": [
+        231,
+        219,
+        196
+      ]
+    }
+  }
+}

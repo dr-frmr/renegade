@@ -1,0 +1,22 @@
+{
+  "name": "renegade-theme",
+  "displayName": "Renegade",
+  "description": "A light color theme after Julie Mehretu, Retopistics: A Renegade Excavation",
+  "version": "1.0.0",
+  "publisher": "dr-frmr",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Renegade",
+        "uiTheme": "vs",
+        "path": "./themes/renegade-color-theme.json"
+      }
+    ]
+  }
+}

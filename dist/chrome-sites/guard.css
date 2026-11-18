@@ -1,0 +1,10 @@
+/* Until repaint.js has repainted the page, show only the ground, so the original
+   colors never flash. repaint.js sets data-renegade when it's done (or after 1.5s). */
+html { background: #e7dbc4 !important; color-scheme: light !important; }
+html:not([data-renegade]) body { visibility: hidden !important; }
+
+/* Selected text: the pink plane thinned over the ground. */
+::selection { background-color: #e1aea7 !important; color: #212a3d !important; }
+
+/* Chrome draws native audio players outside the page's stylesheets. */
+audio::-webkit-media-controls-panel { background-color: #dad1bc !important; }
